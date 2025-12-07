@@ -1,0 +1,737 @@
+@media (max-width: 768px) {
+    /* Navigation */
+    .navbar {
+        display: none;
+    }
+
+    .menu-toggle {
+        display: flex;
+    }
+
+    .menu-toggle.active span:nth-child(1) {
+        transform: rotate(45deg) translate(8px, 8px);
+    }
+
+    .menu-toggle.active span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .menu-toggle.active span:nth-child(3) {
+        transform: rotate(-45deg) translate(7px, -7px);
+    }
+
+    .mobile-menu.active {
+        display: block;
+    }
+
+    /* Hero */
+    .hero-title {
+        font-size: 2.2rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1rem;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        gap: 0.75rem;
+    }
+
+    .hero-buttons .btn {
+        width: 100%;
+    }
+
+    .floating-box {
+        opacity: 0.05;
+    }
+
+    /* Page Hero */
+    .page-hero {
+        padding: 50px 0;
+    }
+
+    .page-hero h1 {
+        font-size: 1.8rem;
+    }
+
+    .page-hero p {
+        font-size: 1rem;
+    }
+
+    /* Sections */
+    section {
+        padding: 50px 0;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    /* Grids */
+    .features-grid,
+    .services-grid,
+    .industries-grid,
+    .values-grid,
+    .reasons-grid,
+    .team-grid,
+    .testimonials-grid,
+    .addons-grid,
+    .benefits-grid,
+    .metrics-grid,
+    .case-studies-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .benefits-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .pricing-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .pricing-card.featured {
+        transform: scale(1);
+    }
+
+    /* Contact */
+    .contact-wrapper {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-info {
+        order: 2;
+    }
+
+    .contact-form-wrapper {
+        order: 1;
+    }
+
+    .form-row {
+        grid-template-columns: 1fr;
+    }
+
+    /* Services Section */
+    .service-section {
+        padding: 40px 0;
+    }
+
+    .features-list {
+        grid-template-columns: 1fr;
+    }
+
+    /* Industry Sections */
+    .industry-content {
+        grid-template-columns: 1fr;
+    }
+
+    .industry-section.alternate .industry-content {
+        direction: ltr;
+    }
+
+    .industry-visual {
+        min-height: 200px;
+    }
+
+    .visual-placeholder {
+        font-size: 2rem;
+    }
+
+    /* Story */
+    .story-content {
+        grid-template-columns: 1fr;
+    }
+
+    .mission-vision-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* Steps */
+    .steps-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    /* Comparison Table */
+    .comparison-table {
+        font-size: 0.9rem;
+    }
+
+    table th,
+    table td {
+        padding: 0.75rem 0.5rem;
+    }
+
+    /* WhatsApp Button */
+    .whatsapp-float {
+        width: 50px;
+        height: 50px;
+        bottom: 20px;
+        right: 20px;
+    }
+
+    .whatsapp-float svg {
+        width: 24px;
+        height: 24px;
+    }
+
+    /* Pricing Toggle */
+    .toggle-container {
+        flex-wrap: wrap;
+        gap: 0.5rem;
+    }
+
+    .toggle-label {
+        font-size: 0.9rem;
+    }
+
+    .save-badge {
+        font-size: 0.75rem;
+        margin-left: 0;
+        display: block;
+        margin-top: 0.25rem;
+    }
+
+    /* Contact CTA */
+    .contact-cta {
+        padding: 40px 0;
+    }
+
+    .contact-cta-buttons {
+        flex-direction: column;
+        gap: 0.75rem;
+    }
+
+    .contact-cta-buttons .btn {
+        width: 100%;
+    }
+
+    /* Footer */
+    .footer-content {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .footer-section {
+        text-align: center;
+    }
+
+    .social-links {
+        justify-content: center;
+    }
+
+    /* FAQ */
+    .faq-container {
+        max-width: 100%;
+    }
+
+    /* Buttons */
+    .btn {
+        padding: 0.65rem 1.2rem;
+        font-size: 0.95rem;
+    }
+
+    /* Forms */
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    select,
+    textarea {
+        padding: 0.65rem;
+    }
+
+    /* Cards */
+    .feature-card,
+    .service-card,
+    .industry-card,
+    .value-card,
+    .reason-card,
+    .team-member,
+    .testimonial-card,
+    .addon-card,
+    .metric-card,
+    .case-study-card,
+    .benefit-card {
+        padding: 1.5rem;
+    }
+
+    /* Service Comparison */
+    .service-comparison {
+        margin: 40px 0;
+        padding: 40px 0;
+    }
+
+    /* Pricing Comparison */
+    .pricing-comparison {
+        margin: 40px 0;
+        padding: 40px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Header */
+    .logo-text {
+        display: none;
+    }
+
+    .logo {
+        font-size: 1.5rem;
+    }
+
+    /* Hero */
+    .hero {
+        padding: 60px 0;
+    }
+
+    .hero-title {
+        font-size: 1.8rem;
+    }
+
+    .hero-subtitle {
+        font-size: 0.95rem;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+    }
+
+    .hero-buttons .btn {
+        font-size: 0.9rem;
+        padding: 0.6rem 1.2rem;
+    }
+
+    /* Page Hero */
+    .page-hero {
+        padding: 40px 0;
+    }
+
+    .page-hero h1 {
+        font-size: 1.5rem;
+    }
+
+    .page-hero p {
+        font-size: 0.9rem;
+    }
+
+    /* Sections */
+    section {
+        padding: 40px 0;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1.1rem;
+    }
+
+    .section-subtitle {
+        font-size: 0.95rem;
+    }
+
+    /* Grids */
+    .features-grid,
+    .services-grid,
+    .industries-grid,
+    .values-grid,
+    .reasons-grid,
+    .team-grid,
+    .testimonials-grid,
+    .addons-grid,
+    .metrics-grid,
+    .case-studies-grid {
+        gap: 1rem;
+    }
+
+    .benefits-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .steps-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* Cards */
+    .feature-card,
+    .service-card,
+    .industry-card,
+    .value-card,
+    .reason-card,
+    .team-member,
+    .testimonial-card,
+    .addon-card,
+    .metric-card,
+    .case-study-card,
+    .benefit-card,
+    .contact-info,
+    .contact-form-wrapper {
+        padding: 1.25rem;
+    }
+
+    .feature-icon,
+    .service-icon,
+    .industry-icon,
+    .value-icon,
+    .benefit-icon,
+    .contact-icon {
+        font-size: 2rem;
+    }
+
+    /* Contact */
+    .contact-wrapper {
+        gap: 1.5rem;
+    }
+
+    .contact-item {
+        gap: 0.75rem;
+    }
+
+    .contact-icon {
+        font-size: 1.5rem;
+    }
+
+    /* Forms */
+    .contact-form {
+        margin-top: 1rem;
+    }
+
+    .form-group {
+        margin-bottom: 1rem;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    select,
+    textarea {
+        padding: 0.6rem;
+        font-size: 16px;
+    }
+
+    label {
+        font-size: 0.9rem;
+    }
+
+    /* Buttons */
+    .btn {
+        padding: 0.6rem 1rem;
+        font-size: 0.9rem;
+    }
+
+    .contact-cta-buttons {
+        gap: 0.5rem;
+    }
+
+    .contact-cta-buttons .btn {
+        font-size: 0.85rem;
+        padding: 0.6rem 0.8rem;
+    }
+
+    /* Testimonials */
+    .testimonial-author {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .author-avatar {
+        width: 40px;
+        height: 40px;
+        font-size: 0.8rem;
+    }
+
+    /* Pricing */
+    .plan-price {
+        gap: 0.25rem;
+    }
+
+    .currency {
+        font-size: 1.2rem;
+    }
+
+    .amount {
+        font-size: 1.8rem;
+    }
+
+    .period {
+        font-size: 0.85rem;
+    }
+
+    .plan-features li {
+        font-size: 0.85rem;
+    }
+
+    /* Comparison Table */
+    table {
+        font-size: 0.8rem;
+    }
+
+    table th,
+    table td {
+        padding: 0.5rem 0.25rem;
+    }
+
+    /* Footer */
+    .footer-content {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .footer-section h4 {
+        margin-bottom: 0.75rem;
+    }
+
+    .footer-section a,
+    .footer-section p {
+        font-size: 0.9rem;
+        margin-bottom: 0.35rem;
+    }
+
+    .social-links {
+        gap: 0.5rem;
+    }
+
+    .social-link {
+        font-size: 0.9rem;
+    }
+
+    /* WhatsApp Button */
+    .whatsapp-float {
+        width: 45px;
+        height: 45px;
+        bottom: 15px;
+        right: 15px;
+    }
+
+    .whatsapp-float svg {
+        width: 20px;
+        height: 20px;
+    }
+
+    /* Response Time */
+    .response-time {
+        margin-top: 1rem;
+        padding: 1rem;
+    }
+
+    .response-time li {
+        font-size: 0.9rem;
+    }
+
+    /* Timeline */
+    .timeline {
+        padding: 1rem 0;
+    }
+
+    .timeline-item {
+        padding-left: 2rem;
+    }
+
+    .timeline-marker {
+        left: -11px;
+        width: 20px;
+        height: 20px;
+        font-size: 0.75rem;
+    }
+
+    /* Steps Grid */
+    .step-card h3 {
+        font-size: 1rem;
+    }
+
+    .step-card p {
+        font-size: 0.85rem;
+    }
+
+    .step-number {
+        width: 40px;
+        height: 40px;
+        font-size: 1.2rem;
+    }
+
+    /* FAQ */
+    .faq-question {
+        padding: 1rem;
+    }
+
+    .faq-toggle {
+        font-size: 1.2rem;
+    }
+
+    /* Contact CTA */
+    .contact-cta {
+        padding: 30px 0;
+    }
+
+    .contact-cta h2 {
+        font-size: 1.5rem;
+    }
+
+    .contact-cta p {
+        font-size: 0.95rem;
+        margin-bottom: 1.5rem;
+    }
+
+    /* Error messages */
+    .error-message {
+        font-size: 0.8rem;
+    }
+
+    /* Form Message */
+    .form-message {
+        font-size: 0.9rem;
+        padding: 0.75rem;
+    }
+
+    /* Industry Text */
+    .industry-text h2 {
+        font-size: 1.5rem;
+    }
+
+    .industry-text h3 {
+        font-size: 1rem;
+    }
+
+    .industry-text li {
+        font-size: 0.9rem;
+    }
+
+    /* Story Text */
+    .story-text p {
+        font-size: 0.9rem;
+    }
+
+    /* Pricing Toggle */
+    .toggle-container {
+        gap: 0.3rem;
+    }
+
+    .toggle-label {
+        font-size: 0.8rem;
+    }
+
+    /* Plan Cards */
+    .pricing-card {
+        padding: 1.5rem 1rem;
+    }
+
+    .plan-name {
+        font-size: 1.3rem;
+    }
+
+    .plan-subtitle {
+        font-size: 0.8rem;
+    }
+
+    /* Case Study */
+    .case-study-result {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    /* Benefit Item */
+    .benefit-item {
+        padding: 1rem;
+    }
+
+    .benefit-number {
+        font-size: 1.8rem;
+    }
+
+    /* Horizontal scroll for small screens */
+    .comparison-table {
+        border-radius: 0;
+        margin: 0 -20px;
+    }
+
+    table {
+        border-radius: 0;
+    }
+}
+
+/* Ultra-small screens */
+@media (max-width: 320px) {
+    .container {
+        padding: 0 10px;
+    }
+
+    .hero-title {
+        font-size: 1.5rem;
+    }
+
+    .page-hero h1 {
+        font-size: 1.3rem;
+    }
+
+    h2 {
+        font-size: 1.3rem;
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+
+    .btn {
+        padding: 0.5rem 0.8rem;
+        font-size: 0.85rem;
+    }
+
+    .feature-card,
+    .service-card,
+    .industry-card,
+    .value-card,
+    .reason-card,
+    .team-member,
+    .testimonial-card,
+    .addon-card,
+    .metric-card,
+    .case-study-card,
+    .benefit-card {
+        padding: 1rem;
+    }
+
+    .feature-icon,
+    .service-icon,
+    .industry-icon,
+    .value-icon,
+    .benefit-icon {
+        font-size: 1.5rem;
+    }
+
+    .logo {
+        font-size: 1.2rem;
+    }
+
+    .logo-icon {
+        font-size: 1.5rem;
+    }
+
+    .hero {
+        padding: 50px 0;
+    }
+
+    section {
+        padding: 30px 0;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    select,
+    textarea {
+        font-size: 16px;
+    }
+
+    table {
+        font-size: 0.75rem;
+    }
+
+    table th,
+    table td {
+        padding: 0.4rem 0.2rem;
+    }
+}

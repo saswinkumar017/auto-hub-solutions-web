@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact AutoHub Solutions - Get in touch with our team for automation solutions and consultations.">
+    <meta name="keywords" content="contact, support, consultation, automation, lead form">
+    <meta property="og:title" content="Contact Us - AutoHub Solutions">
+    <meta property="og:description" content="Reach out to AutoHub Solutions for your automation needs.">
+    <title>Contact Us - AutoHub Solutions</title>
+    <link rel="stylesheet" href="assets/styles.css">
+    <link rel="stylesheet" href="assets/responsive.css">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <header class="header sticky-header">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <span class="logo-icon">⚙️</span>
+                    <span class="logo-text">AutoHub</span>
+                </div>
+                
+                <nav class="navbar">
+                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="about.html" class="nav-link">About</a>
+                    <a href="services.html" class="nav-link">Services</a>
+                    <a href="industries.html" class="nav-link">Industries</a>
+                    <a href="pricing.html" class="nav-link">Pricing</a>
+                    <a href="contact.html" class="nav-link active btn-primary">Contact Us</a>
+                </nav>
+
+                <div class="menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="industries.html">Industries</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="contact.html" class="active">Contact Us</a>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="page-hero">
+        <div class="container">
+            <h1>Get In Touch</h1>
+            <p>Let's discuss how automation can transform your business</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-wrapper">
+                <!-- Contact Information -->
+                <div class="contact-info">
+                    <h2>Contact Information</h2>
+                    <p>We'd love to hear from you. Reach out using any of the following methods:</p>
+
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">📧</div>
+                            <div class="contact-text">
+                                <h4>Email</h4>
+                                <p><a href="mailto:hello@autohubsolutions.com">hello@autohubsolutions.com</a></p>
+                                <p class="contact-subtitle">We typically respond within 2 hours</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">📱</div>
+                            <div class="contact-text">
+                                <h4>Phone</h4>
+                                <p><a href="tel:+919876543210">+91 9876 543 210</a></p>
+                                <p class="contact-subtitle">Available Mon-Fri, 9 AM - 6 PM IST</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">💬</div>
+                            <div class="contact-text">
+                                <h4>WhatsApp</h4>
+                                <p><a href="https://wa.me/919876543210" target="_blank">Send Message</a></p>
+                                <p class="contact-subtitle">Instant messaging support available</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">📍</div>
+                            <div class="contact-text">
+                                <h4>Office Location</h4>
+                                <p>New Delhi, India</p>
+                                <p class="contact-subtitle">Serving clients worldwide</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="response-time">
+                        <h4>Response Time</h4>
+                        <ul>
+                            <li><strong>Basic Inquiry:</strong> 2 hours</li>
+                            <li><strong>Demo Request:</strong> 24 hours</li>
+                            <li><strong>Support Issue:</strong> 1 hour (Premium members)</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form-wrapper">
+                    <h2>Send Us a Message</h2>
+                    <p>Fill out this form and we'll get back to you as soon as possible.</p>
+
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="fullName">Full Name <span class="required">*</span></label>
+                            <input type="text" id="fullName" name="fullName" required placeholder="Your full name">
+                            <span class="error-message" id="fullNameError"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email (Gmail Preferred) <span class="required">*</span></label>
+                            <input type="email" id="email" name="email" required placeholder="your.email@gmail.com">
+                            <span class="error-message" id="emailError"></span>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="phone">Contact Number <span class="required">*</span></label>
+                                <input type="tel" id="phone" name="phone" required placeholder="+91 98765 43210">
+                                <span class="error-message" id="phoneError"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="whatsapp">WhatsApp Number <span class="required">*</span></label>
+                                <input type="tel" id="whatsapp" name="whatsapp" required placeholder="+91 98765 43210">
+                                <span class="error-message" id="whatsappError"></span>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="company">Company/Institution Name</label>
+                            <input type="text" id="company" name="company" placeholder="Your company or institution name">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="service">Service Interested In <span class="required">*</span></label>
+                            <select id="service" name="service" required>
+                                <option value="">-- Select a service --</option>
+                                <option value="WhatsApp Automation">WhatsApp Automation</option>
+                                <option value="Instagram Automation">Instagram Automation</option>
+                                <option value="Micro SaaS Tools">Micro SaaS Tools</option>
+                                <option value="Workflow Automation">Workflow Automation</option>
+                                <option value="Multiple Services">Multiple Services</option>
+                                <option value="Other">Other</option>
+                            </select>
+                            <span class="error-message" id="serviceError"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="6" placeholder="Tell us about your requirements and how we can help..."></textarea>
+                        </div>
+
+                        <div class="form-group checkbox">
+                            <input type="checkbox" id="privacy" name="privacy" required>
+                            <label for="privacy">I agree to the <a href="privacy.html" target="_blank">Privacy Policy</a> and <a href="terms.html" target="_blank">Terms & Conditions</a> <span class="required">*</span></label>
+                            <span class="error-message" id="privacyError"></span>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary" id="submitBtn">Submit & Contact Me</button>
+                        <div class="form-message" id="formMessage"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="why-contact">
+        <div class="container">
+            <h2>Why Contact AutoHub?</h2>
+            <p class="section-subtitle">What happens after you submit your information</p>
+
+            <div class="steps-grid">
+                <div class="step-card">
+                    <div class="step-number">1</div>
+                    <h3>Immediate Response</h3>
+                    <p>Our team reviews your inquiry within 2 hours and sends an initial response.</p>
+                </div>
+
+                <div class="step-card">
+                    <div class="step-number">2</div>
+                    <h3>Consultation Call</h3>
+                    <p>We schedule a free 30-minute consultation to understand your needs better.</p>
+                </div>
+
+                <div class="step-card">
+                    <div class="step-number">3</div>
+                    <h3>Custom Proposal</h3>
+                    <p>Receive a tailored proposal with specific solutions for your business.</p>
+                </div>
+
+                <div class="step-card">
+                    <div class="step-number">4</div>
+                    <h3>Quick Implementation</h3>
+                    <p>Once approved, we start implementation immediately (usually 3-7 days).</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="contact-faq">
+        <div class="container">
+            <h2>Frequently Asked Questions</h2>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How do I get started with AutoHub?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Simply fill out the form above or contact us directly. We'll schedule a free consultation to discuss your needs and provide recommendations.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How long does implementation take?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Most projects go live in 3-7 days. Complex implementations may take 2-4 weeks. We'll provide a timeline during the consultation.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Is there a minimum contract period?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>No! We offer flexibility. You can cancel anytime, though we do offer discounts for annual commitments.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What if I need help after launch?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We provide 24/7 support for all clients. Depending on your plan, you get email support, priority chat, or a dedicated account manager.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Can you integrate with my existing systems?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes! We can integrate with most business systems. We'll assess compatibility during the consultation and provide integration options.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How much does a typical project cost?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Pricing depends on your specific needs. Check our <a href="pricing.html">pricing page</a> for our standard plans, or contact us for custom enterprise pricing.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>AutoHub Solutions</h4>
+                    <p>Building smart automation systems for modern businesses worldwide.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">LinkedIn</a>
+                        <a href="#" class="social-link">Twitter</a>
+                        <a href="#" class="social-link">Instagram</a>
+                        <a href="#" class="social-link">Facebook</a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About Us</a>
+                    <a href="services.html">Services</a>
+                    <a href="pricing.html">Pricing</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <a href="services.html#whatsapp">WhatsApp Automation</a>
+                    <a href="services.html#instagram">Instagram Automation</a>
+                    <a href="services.html#saas">Micro SaaS Tools</a>
+                    <a href="services.html#workflow">Workflow Automation</a>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <a href="privacy.html">Privacy Policy</a>
+                    <a href="terms.html">Terms & Conditions</a>
+                    <a href="#">Cookie Policy</a>
+                    <a href="#">Disclaimer</a>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>📧 hello@autohubsolutions.com</p>
+                    <p>📱 +91 9876 543 210</p>
+                    <p>📍 New Delhi, India</p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 AutoHub Solutions. All rights reserved.</p>
+                <p>Built with ❤️ for modern businesses</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/919876543210?text=Hello%20AutoHub%20Solutions" class="whatsapp-float" target="_blank" title="Chat with us on WhatsApp">
+        <svg viewBox="0 0 24 24" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M17.6915026,2.4744748 C15.6693616,0.409779545 12.9581152,0 10.4147785,-0.0141124179 C5.07273955,0 0.842175885,4.32295703 0.82987144,9.80194705 C0.810572451,12.8911065 1.58788805,15.9081335 3.15823897,18.5267258 L0.734206151,23.7764652 L6.28823305,21.4161549 C8.75948108,22.8194131 11.5894429,23.5658196 14.4771816,23.5658196 L14.4859268,23.5658196 C19.8274143,23.5658196 24,19.2428682 24.0123452,13.7638778 C24.0247905,11.2215901 23.2474578,8.81938996 21.684104,6.8042819 Z M10.4147785,21.4948843 C7.87885541,21.4948843 5.40325349,20.8597064 3.27009876,19.6718694 L2.94418821,19.4832962 L-0.111225393,20.3143703 L0.777571362,17.3924969 L0.564141722,17.0686649 C-0.767156918,14.8010224 -1.35628269,12.1788908 -1.35628269,9.80194705 C-1.35628269,5.41607819 2.30761769,1.85024001 6.68926513,1.85024001 C8.65590326,1.86433213 10.5346531,2.61233544 11.9919532,3.95129713 C13.4492533,5.29025883 14.398597,7.11435927 14.4147785,9.04646842 C14.4009335,13.4323372 10.747269,21.4948843 10.4147785,21.4948843 Z M17.8678211,11.4744748 C17.6915026,11.3695121 16.6563168,10.8650326 16.4915026,10.8071989 C16.3266884,10.7493651 16.2104635,10.7203482 16.0942386,10.8971486 C15.9780137,11.0739489 15.5496661,11.5783006 15.4486956,11.7040463 C15.3477251,11.829792 15.2467546,11.844976 15.0704361,11.7400134 C14.8941176,11.6350507 14.2806957,11.4269137 13.5528542,10.7493651 C12.9935913,10.2294234 12.6115444,9.57982211 12.5105739,9.40284108 C12.4096034,9.22585905 12.5105739,9.11625338 12.6115444,9.01128913 C12.7035834,8.91632487 12.8141879,8.7473767 12.9151584,8.64590504 C13.0161289,8.54443338 13.0810775,8.47634177 13.1820479,8.47634177 C13.2830184,8.47634177 13.3739554,8.47634177 13.4485266,8.46353412 C13.5190787,8.45244626 13.6199227,8.4148671 13.7208633,8.28323386 C13.8218038,8.15160061 14.1546938,7.64726653 14.2556644,7.48029098 C14.3566349,7.31331544 14.2556644,7.18168219 14.1546938,7.07671794 C14.0537233,6.97175368 13.1820479,5.79649973 12.9951259,5.45526872 C12.8141879,5.12265506 12.6282215,5.17047589 12.4947339,5.17047589 C12.3743166,5.17047589 12.2540993,5.17047589 12.1338819,5.17047589 C12.0135646,5.17047589 11.8159621,5.2293096 11.6511478,5.40628839 C11.4863336,5.58326718 10.9970664,6.10018806 10.9970664,7.27565268 C10.9970664,8.45111729 11.6719246,9.57982211 11.7728951,9.70555781 C11.8738656,9.82987144 12.6115444,11.0149812 13.8277421,11.6140147 C14.0502326,11.7243101 14.2305117,11.7823657 14.371609,11.8187433 C14.5900231,11.8741119 14.8484151,11.8649307 15.0352038,11.76 C15.2487937,11.6350507 15.8619965,11.3695121 15.9630671,11.1215618 C16.0640376,10.8736116 16.0640376,10.6658345 15.9956314,10.6155099 C15.9272252,10.5651853 15.8110003,10.5360685 15.6595816,10.5009348 Z" fill="white"/>
+        </svg>
+    </a>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>
